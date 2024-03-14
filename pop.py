@@ -11,3 +11,9 @@ print(cities)
 # now introducing the pop method
 popped_city = cities.pop()
 print(cities)
+print(popped_city)
+
+
+# we can pop any element from any position 
+second_city = cities.pop(1)
+print(cities)
