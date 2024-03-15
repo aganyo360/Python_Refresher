@@ -11,3 +11,10 @@ cars.sort(reverse=True)
 print(cars)
 
 print(f'Heres is the sorted list{sorted(cars)}')
+
+# printing  a list in reverse order
+cars.reverse
+print(cars)
+
+# length of a list
+print(len(cars))
