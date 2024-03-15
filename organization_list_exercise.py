@@ -2,6 +2,8 @@
 cities =[
     'NYC', 'Barcelona', 'Chicago', 'Hungary', 'Mexico'
 ]
-cities.sort()
-cities.sorted()
+cities.sort(reverse=True)
+sorted(cities)
 print(cities)
+
+# exercise part 2
