@@ -9,3 +9,5 @@ print(cars)
 cars.sort(reverse=True)
 # reverse= trues sorts the list in descending order 
 print(cars)
+
+print(f'Heres is the sorted list{sorted(cars)}')
