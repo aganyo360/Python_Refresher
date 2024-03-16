@@ -4,7 +4,7 @@ import re
 # 1. Match Function  re.match(pattern, string)  check pattern at the beginning of the targeted string else returns none
 string = 'I am learning fundamental of data engineering'
 matching = re.match('I', string)
-print(matching)
+print(f'matching',matching)
 
 # 2. Search function
 #  if the match is available then it returns the atch 
