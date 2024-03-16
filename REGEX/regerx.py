@@ -11,3 +11,22 @@ print(f'matching',matching)
 #  if first occurance it will return not considering the second occurance
 searching = re.search('a', string)
 print(f'searching', searching)
+
+
+
+#  3. findall function
+#  finds all the occurance of the pattern
+findall = re.findall('i', string)
+print(f'lists all the occurances of the pattern inside the sttring',findall)
+
+
+
+
+
+
+# 4. Finditer function
+string_1 = 'this is a python regular expression session'
+finditer = re.finditer('a-d', string_1)
+for i in finditer:
+    print(i)
+    print(i.start(), i.end(), i.group())
