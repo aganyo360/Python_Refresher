@@ -16,5 +16,5 @@ class Method:
             self.m3=m3
         def avg(self):
             return (self.m1+self.m2+self.m3)/3
-    Average= Student(10,30,20)
-    print(Average.avg())
+    # Average= Student()
+    print(Student(10,30,20).avg())
