@@ -5,4 +5,7 @@ class Student:
         self.gender = gender
     def display(self):
         print(self.name, self.rollno, self.gender)
+
 print(Student('Brice',1234, 'male').display())
+
+# to make it print in dictinary format user  e.__dict__
