@@ -26,6 +26,9 @@ substitute = re.sub('i', 'I', string_2)
 print(f'subsitute sub function ',substitute)
 
 
+# subn fucntion
+substitutekl
+
 
 
 
