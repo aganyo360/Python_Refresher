@@ -16,3 +16,12 @@ print(f'The even numbers are:',even_numbers)
 
 odd_numbers = list(range(1,21,2))
 print(f'The odd numbers are:',odd_numbers)
+
+
+# the below code fragment prints the first 10 square numbers
+square =[]
+
+for i in range(1,11):
+    square.append(i**2)
+
+print(square)
