@@ -10,3 +10,4 @@ print(sum(numbers))
 squaress = [value**2 for value in range(1,11)]
 
 print(squaress)
+# the above code is used to print the range
