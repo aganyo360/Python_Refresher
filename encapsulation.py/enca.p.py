@@ -20,4 +20,3 @@ print('Accessing my protected_varibalbe',e._c)
 
 print('Accessing my private_varibalbe',e.__d)
 
-## consistent variables
