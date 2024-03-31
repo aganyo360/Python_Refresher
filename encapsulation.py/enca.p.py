@@ -12,7 +12,7 @@ class Encapsulation:
 e = Encapsulation(50)
 e.public_var(60)
 e.protected_var(70)
-e.private_var(80)
+e.private_var(900)
 
 print('Accessing my public_varibalbe',e.b)
 
