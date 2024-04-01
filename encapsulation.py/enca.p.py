@@ -7,7 +7,7 @@ class Encapsulation:
         self._c=c
     def private_var(self,d):
         self.__d=d
-        #  the __ double undersocre show private and _c single underscore show protected
+        #  the __ double undersocre show private and _c single underscore show
 
 e = Encapsulation(50)
 e.public_var(60)
