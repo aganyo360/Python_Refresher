@@ -17,5 +17,7 @@ print('Accessing my public_varibalbe',e.b)
 
 print('Accessing my protected_varibalbe',e._c)
 
+
+print('Accessing my private_varibalbe',e.__d)
 print('Accessing my private_varibalbe',e.__d)
 
