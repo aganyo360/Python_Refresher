@@ -9,6 +9,7 @@ class Encapsulation:
         self.__d=d
         #  the __ double undersocre show private and _c single underscore show protected variable
 e = Encapsulation(50)
+# the following are the forms of visibility in python
 e.public_var(60)
 e.protected_var(70)
 e.private_var(900)
