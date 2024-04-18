@@ -24,8 +24,7 @@ print(f'lists all the occurances of the pattern inside the sttring',findall)
 string_2 = 'artificial intelligence engineer'
 substitute = re.sub('i', 'I', string_2)
 print(f'subsitute sub function ',substitute)
-
-
+print(f'subsitute sub function ',substitute)
 
 
 
