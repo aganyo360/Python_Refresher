@@ -22,7 +22,7 @@ print(f'lists all the occurances of the pattern inside the sttring',findall)
 
 #  Sub funciton it replaces the pattern syntax re.sub('i', 'I', string)
 string_two = 'artificial intelligence engineer course'
-substitute = re.sub('i', 'I', string_2)
+substitute = re.sub('i', 'I', string_two)
 print(f'subsitute sub function ',substitute)
 print(f'subsitute sub function ',substitute)
 
