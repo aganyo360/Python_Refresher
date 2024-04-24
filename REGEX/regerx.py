@@ -15,7 +15,7 @@ print(f'searching', searching)
 
 
 #  3. findall function
-#  finds all the occurance of the pattern in regresion expression 
+
 findall = re.findall('i', string)
 print(f'lists all the occurances of the pattern inside the sttring',findall)
 
