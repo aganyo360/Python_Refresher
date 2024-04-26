@@ -14,7 +14,7 @@ print(f'Heres is the sorted list{sorted(cars)}')
 
 # printing  a list in reverse order
 cars.reverse
-print(cars)
+print(cars.uppercase())
 
 # length of a list
 print(len(cars))
