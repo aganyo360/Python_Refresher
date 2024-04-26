@@ -5,24 +5,12 @@ class Animal:
         self.gender = gender
 
     def walk(self):
-        print(self.name.title() + " is now sitting.")
+        print(self.name.title() + " is now walking.")
     
-    def roll_over(self):
-        print(self.name.title() + " rolled over!")
+    def eat(self):
+        print(self.name.title() + " eating")
 
+my_cow = Animal('Bonito', 23, 'female')
 
-
-class Dog:
-    def __init__(self, name, age, gender):
-        self.name = name
-        self.age = age
-        self.gender = gender
-
-    def sit(self):
-        print(self.name.title() + " is now sitting.")
-    
-    def roll_over(self):
-        print(self.name.title() + " rolled over!")
-
-my_dog = Dog('willie', 6, 'male')
-my_dog.roll_over()
+my_cow.walk()
+my_cow.eat()
