@@ -2,3 +2,8 @@
 measurements = (100,200)
 
 print(measurements[0])
+
+# while a list is mutable a tuple is immutable
+
+measurements[0]=23
+print(measurements[0])
