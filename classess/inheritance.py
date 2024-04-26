@@ -17,7 +17,7 @@ class Dog(Animal):
 
 class Cat(Animal):
     def __init__(self, name, age, gender):
-        super.__init__(name, age, gender)
+        super().__init__(name, age, gender)
 
 first_dog = Dog('Tito', 3, 'male')
 
@@ -27,4 +27,8 @@ first_dog.eat()
 
 print(first_dog.name.title() + " is " + str(first_dog.age) + " years old.")
 
-first_cat = Cat('')
+first_cat = Cat('Parado', 2, 'male')
+
+first_cat.walk()
+
+first_cat.eat()
